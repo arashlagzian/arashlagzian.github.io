@@ -236,10 +236,19 @@ a:hover {
 #teaching-container ul li {
     font-size: 14px;
     line-height: 1.5;
-    display: grid;
-    grid-template-columns: auto 3cm;
-    column-gap: 10px;
 }
+
+.course-name {
+    display: inline-block;
+    width: 15cm; /* Controls the space for the course name */
+    vertical-align: top;
+}
+
+.presenter {
+    display: inline-block;
+    vertical-align: top;
+}
+
 
 #teaching-container ul li a {
     color: blue;
