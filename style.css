@@ -236,6 +236,9 @@ a:hover {
 #teaching-container ul li {
     font-size: 14px;
     line-height: 1.5;
+    display: grid;
+    grid-template-columns: auto 3cm;
+    column-gap: 10px;
 }
 
 #teaching-container ul li a {
