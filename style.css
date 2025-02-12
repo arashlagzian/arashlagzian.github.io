@@ -245,7 +245,7 @@ a:hover {
 }
 
 .presenter {
-    margin-left: 5px; /* Adjust for fine-tuning */
+    margin-left: -5px; /* Adjust for fine-tuning */
     text-align: left;
 }
 
