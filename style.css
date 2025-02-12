@@ -246,6 +246,8 @@ a:hover {
 }
 
 .presenter {
+    position: relative;
+    left: -15px; /* Adjust this value to move it slightly to the left */
     text-align: left;
 }
 
