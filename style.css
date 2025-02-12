@@ -241,11 +241,11 @@ a:hover {
 }
 
 .course-name {
-    width: 320px; /* Adjust this value to perfectly align with the publication thumbnail width */
+    width: 310px; /* Adjust this value to perfectly align with the publication thumbnail width */
 }
 
 .presenter {
-    margin-left: -5px; /* Adjust for fine-tuning */
+    margin-left: 5px; /* Adjust for fine-tuning */
     text-align: left;
 }
 
