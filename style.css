@@ -241,11 +241,11 @@ a:hover {
 }
 
 .course-name {
-    min-width: 40%;
-    padding-right: 10px;
+    width: 320px; /* Adjust this value to perfectly align with the publication thumbnail width */
 }
 
 .presenter {
+    margin-left: 10px; /* Adjust for fine-tuning */
     text-align: left;
 }
 
