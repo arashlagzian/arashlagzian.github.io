@@ -229,7 +229,7 @@ a:hover {
 
 #teaching-container ul {
     display: grid;
-    grid-template-columns: 40% 60%; /* Matches the publication section layout */
+    grid-template-columns: 40% 58%; /* Matches the publication section layout */
     padding: 0;
     list-style: none;
 }
@@ -244,6 +244,7 @@ a:hover {
 
 .presenter {
     padding: 10px 0;
+    margin-left: -10px; /* Slight negative margin to shift left */
 }
 
 
