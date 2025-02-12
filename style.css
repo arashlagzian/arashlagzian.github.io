@@ -246,3 +246,16 @@ a:hover {
 #teaching-container ul li a:hover {
     text-decoration: underline;
 }
+
+#teaching-container ul li {
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#teaching-container ul li span {
+    margin-left: 3cm; /* Ensures a 3cm gap */
+}
+
