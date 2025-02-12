@@ -228,23 +228,25 @@ a:hover {
 }
 
 #teaching-container ul {
-    display: grid;
-    grid-template-columns: 40% 58%; /* Matches the publication section layout */
+    list-style-type: disc;
     padding: 0;
-    list-style: none;
+    margin: 0;
 }
 
 #teaching-container ul li {
-    display: contents;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .course-name {
-    padding: 10px 0;
+    min-width: 40%;
+    padding-right: 10px;
 }
 
 .presenter {
-    padding: 10px 0;
-    margin-left: -10px; /* Slight negative margin to shift left */
+    text-align: left;
 }
 
 
